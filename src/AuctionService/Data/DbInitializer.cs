@@ -1,5 +1,4 @@
-﻿
-using AuctionService.Entities;
+﻿using AuctionService.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace AuctionService.Data;
@@ -25,7 +24,6 @@ public class DbInitializer
 
         var auctions = new List<Auction>()
         {
-            //auctions
             // 1 Ford GT
             new Auction
             {

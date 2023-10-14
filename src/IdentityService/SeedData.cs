@@ -18,10 +18,7 @@ public class SeedData
 
         var userMgr = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
 
-        if (userMgr.Users.Any())
-        {
-            return;
-        }
+        if (userMgr.Users.Any()) return;
 
         var alice = userMgr.FindByNameAsync("alice").Result;
         if (alice == null)
@@ -39,7 +36,7 @@ public class SeedData
             }
 
             result = userMgr.AddClaimsAsync(alice, new Claim[]{
-                            new Claim(JwtClaimTypes.Name, "Alice Smith")
+                            new Claim(JwtClaimTypes.Name, "Alice Smith"),
                         }).Result;
             if (!result.Succeeded)
             {
@@ -68,7 +65,7 @@ public class SeedData
             }
 
             result = userMgr.AddClaimsAsync(bob, new Claim[]{
-                            new Claim(JwtClaimTypes.Name, "Bob Smith")
+                            new Claim(JwtClaimTypes.Name, "Bob Smith"),
                         }).Result;
             if (!result.Succeeded)
             {

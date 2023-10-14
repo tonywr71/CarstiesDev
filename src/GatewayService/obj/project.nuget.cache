@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nv6B5zvxRpagJOiUA0eeMzx5fiZs2qdWgT3msZzNGH9lwwD8KpG7SwlRyw4T12xIY+govqYiA8ouPnflv2rK8g==",
+  "dgSpecHash": "DB+ZuFAz2JCZs71frTyf6D226QXu15mym9+dIR3aJTDOry4ggsl2gLhohB5WHEu1mM2yqXpby+ZlqioV205HLA==",
   "success": true,
   "projectFilePath": "C:\\Users\\tonyw\\OneDrive\\Documents\\650 Software stuff\\CarstiesDev\\src\\GatewayService\\GatewayService.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tonyw\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.12\\microsoft.aspnetcore.authentication.jwtbearer.7.0.12.nupkg.sha512",
+    "C:\\Users\\tonyw\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.8\\microsoft.aspnetcore.authentication.jwtbearer.7.0.8.nupkg.sha512",
     "C:\\Users\\tonyw\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\tonyw\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.15.1\\microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",
     "C:\\Users\\tonyw\\.nuget\\packages\\microsoft.identitymodel.logging\\6.15.1\\microsoft.identitymodel.logging.6.15.1.nupkg.sha512",
