@@ -26,7 +26,7 @@ const renderer = ({ days, hours, minutes, seconds, completed }:
 
   };
 
-export default function CountdownTime({auctionEnd}: Props) {
+export default function CountdownTimer({auctionEnd}: Props) {
   return (
     <div><Countdown date={auctionEnd} renderer={renderer} /></div>
   )
